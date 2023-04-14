@@ -1,11 +1,13 @@
 {
+  "name": "sacci-startups-back-grape",
     "version": 2,
-    "builds": [
+    "public":true,
+    "build": 
       {
         "src": "src/server.js",
         "use": "@vercel/node"
       }
-    ],
+    ,
     "routes": [
       {
         "src": "/(.*)",

@@ -7,11 +7,11 @@ const mongoose = require("mongoose");
 
 const app = express();
 
-const userRoutes = require("./src/routes/UserRoutes");
-const startupsRoutes = require("./src/routes/StartupRoutes");
-const categoryRoutes = require("./src/routes/CategoryRoutes");
-const classificationRoutes = require("./src/routes/ClassificationRoutes");
-const sojaRoutes = require('./src/routes/SojaRoutes');
+const userRoutes = require("./routes/UserRoutes");
+const startupsRoutes = require("./routes/StartupRoutes");
+const categoryRoutes = require("./routes/CategoryRoutes");
+const classificationRoutes = require("./routes/ClassificationRoutes");
+const sojaRoutes = require('./routes/SojaRoutes');
 app.use(cors());
 
 app.use(express.json());
